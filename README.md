@@ -1,2 +1,6 @@
 # bootstrap
-Bootstrap Elements
+
+FLOTS
+float-start
+float-end
+float-none
