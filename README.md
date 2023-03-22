@@ -9,6 +9,8 @@ float-none
 
 COLORS
 
+https://getbootstrap.com/docs/5.2/utilities/colors/#colors
+
 
 -primary (blue)
 -secondary (grey)
