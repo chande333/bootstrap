@@ -12,28 +12,28 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
 
 
-#FLOTS
+# FLOTS
 
 float-start
 float-end
 float-none
 
 
-#COLORS
+# COLORS
 
 https://getbootstrap.com/docs/5.2/utilities/colors/#colors
 
 
--primary (blue)
--secondary (grey)
--success (green)
--danger (red)
--warning (yellow)
--info (light blue)
--light (white)
--dark (black)
--body (???)
--muted
--white
--black-50
--white-50
+- primary (blue)
+- secondary (grey)
+- success (green)
+- danger (red)
+- warning (yellow)
+- info (light blue)
+- light (white)
+- dark (black)
+- body (???)
+- muted
+- white
+- black-50
+- white-50
