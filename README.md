@@ -11,18 +11,23 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
 
+# Text & Font
+- text-center
+- text-right
+- text-left
+- *text-break*
+- fw-bold
 
 # FLOTS
 
-float-start
-float-end
-float-none
+- float-start
+- float-end
+- float-none
 
 
 # COLORS
 
 https://getbootstrap.com/docs/5.2/utilities/colors/#colors
-
 
 - primary (blue)
 - secondary (grey)
