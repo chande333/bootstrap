@@ -1,0 +1,60 @@
+   <div class="modal" tabindex="-1" id="edit_ticket_queue">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Add Ticket ID to Query</h5>
+                <button type="button" onclick="close_edit_ticket_queue()" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div id="edit_ticket_queue_warning" class="p-1 float-start"></div>
+
+            <div id="edit_ticket_queue_full-body" class="p-1 float-start">
+                
+                <div class="modal-body" data-id="element_id">                
+                    <div class="w-25 p-1 float-start">Element ID</div>
+                    <input id="edit_ticket_id" class="input_1" autocomplete="off" style="width: 300px;">
+                </div>
+                <div class="modal-body" data-id="status">
+                    <div class="w-25 p-1 float-start">ENABLED</div>
+                    <select id="edit_ticket_enabled">
+                        <option value="1">YES</option>
+                        <option value="0">NO</option>
+                    </select>
+                </div>
+                <div class="modal-body" data-id="summary">
+                    <div class="w-25 p-1 float-start">Summary</div>
+                    <input id="edit_ticket_summary" class="input_2" autocomplete="off" style="width: 300px;">
+                </div>
+                <div class="modal-body" data-id="comment">
+                    <div class="w-25 p-1 float-start">Comment</div>
+                    <input id="edit_ticket_comment" class="input_2" autocomplete="off" style="width: 300px;">
+                </div>
+                <div class="modal-body" data-id="status">
+                    <div class="w-25 p-1 float-start">Status</div>
+                    <select id="edit_ticket_status">
+                        <option value="">** None **</option>
+                        <option value="1">Super Frozen</option>
+                    </select>
+                </div>
+                <div class="modal-body" data-id="email_category">
+                    <div class="w-25 p-1 float-start">E-Mail Cat</div>
+                    <select id="edit_ticket_emailcat">
+                        <option value="">** None **</option>
+                        <option value="1">Red</option>
+                        <option value="2">Yellow</option>
+                        <option value="3">Green</option>
+                    </select>
+                </div>
+                <div class="modal-body"  data-id="target_date">
+                    <div class="w-25 p-1 float-start">Target Date</div>
+                    <input  id="edit_ticket_targetDate" type="date"  style="width: 125px;cursor: pointer;padding: 4px;float: left;height: 49px;resize: none;" autocomplete="on" value="">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="close_edit_ticket_queue()" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button id="edit_ticket_but_save" type="button" onclick="update_x_ticket_info()" class="btn btn-primary">Save changes</button>
+                <button id="edit_ticket_but_add" type="button" onclick="add_x_ticket_info()" class="btn btn-success">Add</button>
+            </div>
+            </div>
+        </div>
+    </div>
