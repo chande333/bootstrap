@@ -15,7 +15,7 @@
 - text-center
 - text-right
 - text-left
-- *text-break*
+- *text-break* (breaks, words,text)
 - fw-bold
 
 # FLOTS
