@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
 
+# Centering
+
+<div class="p-1 float-start w-100 d-flex justify-content-around">
+    <div</div>
+</div>
+
 # Text & Font
 - text-center
 - text-right
